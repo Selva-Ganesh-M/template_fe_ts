@@ -9,3 +9,20 @@ function App() {
 }
 
 export default App
+
+
+// #region : welcome page loadable
+
+// const WelomePageLoadable = (Component: React.FC) => (props: any) => {
+//   return (
+//     <Suspense fallback={<WelcomeLoadingPage />}>
+//       <Component {...props} />
+//     </Suspense>
+//   )
+// }
+
+// const Welcome = WelomePageLoadable(
+//   lazy(() => import("./routes/base_routes/switchable/Welcome"))
+// )
+
+// #endregion
